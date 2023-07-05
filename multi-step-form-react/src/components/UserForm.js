@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import FormUserDetails from './FormUserDetails';
+import FormPersonalDetails from './FormPersonalDetails';
 const UserForm = () => {
 	const [step, setStep] = useState(1);
 	const [fields, setFields] = useState({
@@ -23,9 +24,10 @@ const UserForm = () => {
 
 	//handle the change in fields
 	const handleChange = (fieldName) => (event) => {
+		const { value } = event.target;
 		setFields((prevState) => ({
 			...prevState,
-			[fieldName]: event.target.value,
+			[fieldName]: value,
 		}));
 	};
 	const { firstName, lastName, email, occupation, city, bio } = fields;
@@ -41,7 +43,14 @@ const UserForm = () => {
 				/>
 			);
 		case 2:
-			return <h1>FormPersonalDetails</h1>;
+			return (
+				<FormPersonalDetails
+					prevStep={prevStep}
+					nextStep={nextStep}
+					handleChange={handleChange}
+					values={values}
+				/>
+			);
 		case 3:
 			return <h1>Confirm</h1>;
 		case 4:
