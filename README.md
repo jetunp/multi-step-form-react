@@ -1,8 +1,8 @@
-#React Multi-Step Form with Material UI
+# React Multi-Step Form with Material UI
 
 This project is a React multi-step form that allows users to input their personal details and confirm the information before submitting the form. It utilizes the Material UI library for enhanced styling and user interface components.
 
-##Features
+## Features
 
 <ul>
 <li>Multi-step form with clear and intuitive navigation between steps.</li>
@@ -11,14 +11,14 @@ This project is a React multi-step form that allows users to input their persona
 <li>Success page to display a confirmation message upon successful form submission.</li>
 </ul>
 
-##Technologies Used
+## Technologies Used
 
 <ul>
 <li>React: A JavaScript library for building user interfaces.</li>
 <li>Material UI: A popular React UI framework that provides pre-built components for designing modern and responsive user interfaces.</li>
 </ul>
 
-##Setup and Installation
+## Setup and Installation
 
 <ol>
 <li>Clone the repository:</li>
@@ -32,7 +32,7 @@ This project is a React multi-step form that allows users to input their persona
 <li>Open your browser and visit http://localhost:3000 to view the application.</li>
 </ol>
 
-##Usage
+## Usage
 
 <ol>
 <li>Fill in the user and personal details in the corresponding form components.</li>
@@ -42,5 +42,6 @@ This project is a React multi-step form that allows users to input their persona
 <li>Upon successful submission, a success page will be displayed.</li>
 </ol>
 
-##Contributing
+## Contributing
+
 Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open a new issue or submit a pull request.
