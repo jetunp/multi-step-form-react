@@ -49,7 +49,7 @@ const FormPersonalDetails = ({ prevStep, nextStep, values, handleChange }) => {
 				<br />
 				<RaisedButton
 					label='Back'
-					primary={true}
+					primary={false}
 					style={styles.button}
 					onClick={moveToPrevious}
 				/>
